@@ -294,12 +294,15 @@ color: #727272;
     padding: 60px 30px; 
     margin-top: 5%; 
     text-align: center;
+    transition: width 1s, height 1s, transform 1s;
   
     
 }
 
-.boxes:hover{
-    transition:transform 3s ;
+.box:hover{
+        width: 280px;
+        height: 280px;
+        transform: rotate(360deg) ;
 }
 
 
@@ -407,5 +410,107 @@ color: #727272;
     background-color: #FFF4E7;
     border: 2px solid white;
     border-radius: 8px;
+
+}
+
+@media screen and (max-width:576px)
+{
+
+    .sponsors{
+        justify-content: space-evenly; 
+        display: flex;
+        flex-direction: column;
+        margin-top: 0%;
+    
+    }
+
+    .mail-box{
+        width: 0px;
+        margin-left: 5px;
+        border:1px dashed #ffffff;
+    }
+    .mail-button{
+        font-size: 16px;
+        margin-right: 5px;
+        border: none;
+    }
+    .boxes{
+        display: flex;
+        justify-content: space-evenly; 
+        flex-direction: column;
+        gap: 0%;
+        margin-top: 1%;
+        margin-left: 20%;
+        margin-bottom: 10%;
+        transform: rotate(50%);
+      
+    }
+
+    .section3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section3-img{
+        width: 260px;
+        height: 400px;
+    }
+
+    .section2 {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .quicklistofourfeature-detailes{
+        width: 380px;
+    }
+
+    .team-image{
+
+        display: block;
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 5%;
+        gap: 15px;
+    }
+
+    .section1-img {
+        
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .banner-img{
+        width:380px ;
+        height: 300px;
+        
+        
+
+    }
+    .section1{
+        text-align: left;
+        word-wrap: wrap;
+    }
+
+    .nav {
+        padding-top: 10%;
+        display: flex;
+        text-decoration: none;
+        flex-direction: column;
+    }
+
+    .nav-button a {
+        text-decoration: none;
+        padding:   10px;
+    }
+
+
+    #nav-had{
+        left: 40px;
+ 
+    }
+
+    
 
 }
