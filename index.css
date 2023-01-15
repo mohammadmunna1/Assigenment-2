@@ -302,7 +302,7 @@ color: #727272;
 .box:hover{
         width: 280px;
         height: 280px;
-        transform: rotate(360deg) ;
+        transform:skew(1); 
 }
 
 
