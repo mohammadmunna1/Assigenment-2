@@ -1,0 +1,412 @@
+
+.section1-bg
+{
+  
+    width: 1670px;
+    height: 1400px;
+    left: 0px;
+    top: 0px; 
+
+    background: rgba(255, 144, 14, 0.1)
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+#nav-had{
+
+position: absolute;
+width: 302px;
+height: 53px;
+left: 80px;
+top: 10px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+
+
+text-align: center;
+
+color: #131313;
+
+}
+
+.nav-button{
+    margin-top: 62px;
+
+}
+.nav-button a {
+text-decoration: none;
+padding: 50px 70px 20px 40px;
+font-weight: 700;
+font-size: 18px;
+color: #424242;
+}
+
+
+.section1{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.section1-head{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #131313;
+
+}
+
+.section2-text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+
+
+}
+.section1-img{
+    padding-top: 10%;
+    margin-left: 7%;
+}
+
+
+  /* =============================section2==============================  */
+
+
+.section2{
+    margin-top: 5%;
+    display: flex;
+}
+.team-image{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 15%;
+    gap: 15px;
+}
+
+.team-text{
+    padding-top: 10%;
+    margin-left: 5%;
+}
+
+#Quick-list{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #727272;
+
+
+}
+
+#of-Our{
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #080707;
+
+}
+
+#Features{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #fd8b00;
+
+
+}
+
+.quicklistofourfeature-detailes{
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #727272;
+}
+
+.section2-button
+{
+ 
+
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ff7e22;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 40px;
+    padding-left: 0px 15px 0px 15px;
+    border: 0;
+    
+}
+
+
+/* ============================ section3============================== */
+
+
+
+.section3{
+    display: flex;
+    gap: 40px;
+    padding-top: 5%;
+    padding-left: 15%;
+}
+
+.section3-header{
+    font-weight: 700;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.section3-text
+{
+    
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+}
+
+
+
+.section3-div{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    width: auto;
+    margin-top: 2%;
+    box-shadow: 30px 12px 30px rgba(20, 19, 19, 0.06);
+    padding: 0px 10px 0px 10px;
+}
+
+
+.section3-tag
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+
+.section3-text
+{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.section3-img{
+    border-radius: 5%;
+}
+
+.section3-button
+{
+    position: relative;
+    top: -10%;
+
+    height: 120px;
+    border-radius: 10px;
+    background-color: #ff7e22;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    padding-left: 10px;
+    border: 0;
+    
+
+}
+
+
+
+
+
+/* ============================section4============================== */
+
+.section4-text{
+
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+
+
+.fact-tag{
+    font-weight: 700;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fact-text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly; 
+    gap: 0%;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    transform: rotate(50%);
+  
+}
+
+
+.box{
+    border: 3px solid #FF900E;
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+    padding: 60px 30px; 
+    margin-top: 5%; 
+    text-align: center;
+  
+    
+}
+
+.boxes:hover{
+    transition:transform 3s ;
+}
+
+
+
+
+
+.Number{
+
+    font-weight: 700;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.box-text{
+    font-weight: 600;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #727272;
+}
+
+/*=============================Extra============================== */
+
+
+.get-my-update{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.update-text{
+    text-align: center;
+}
+.update-text h1{
+    font-size: 40px;
+}
+.update-text p{
+    font-size: 20px;
+}
+.mail-box{
+    border-radius: 1px;
+    text-align: center;
+    padding: 60px 60px;
+    width: 50%;
+    margin-left: 350px;
+    background-color: rgb(255, 255, 255);
+    border: 1px dashed gray;
+}
+.mail-button{
+    font-size: 16px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+}
+#subscribe{
+    margin-left: 10px;
+    background-color:rgba(222, 25, 25, 0.847) ;
+    color: rgb(242, 242, 241);
+}
+#mail{
+    background-color: rgb(222, 217, 217);
+    color:black;
+}
+
+
+
+/* ============================Footer============================== */
+
+
+
+
+
+.section5 {
+    padding-top: 2%;
+    text-align: center;
+    
+}
+.sponsors{
+    justify-content: space-evenly; 
+    display: flex;
+    margin-top: 0%;
+
+}
+.sponsors-Tag{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponsors-Text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+.footer{
+    text-align: center;
+    margin: 5% 20% 10% 20%;
+    /* margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%; */
+    padding: 10px 10px;
+    background-color: #FFF4E7;
+    border: 2px solid white;
+    border-radius: 8px;
+
+}
